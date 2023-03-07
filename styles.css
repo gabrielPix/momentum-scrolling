@@ -1,0 +1,31 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+html body #scroll-container {
+  width: 100%;
+  position: fixed;
+}
+html body #scroll-container .body-section {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 150px;
+  font-family: "Tahoma";
+  font-weight: 700;
+}
+html body #scroll-container #first {
+  background-color: #B35DFF;
+}
+html body #scroll-container #second {
+  background-color: #7552F0;
+}
+html body #scroll-container #third {
+  background-color: #3647E0;
+}
+html body #scroll-container #fourth {
+  background-color: #42afda;
+}/*# sourceMappingURL=styles.css.map */

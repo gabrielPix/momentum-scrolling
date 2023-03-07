@@ -1,0 +1,38 @@
+
+html {
+
+    body {
+        margin: 0;
+        padding: 0;
+
+        #scroll-container {
+            width: 100%;
+            position: fixed;
+
+            .body-section {
+                height: 80vh;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                font-size: 150px;
+                font-family: "Tahoma";
+                font-weight: 700;
+            }
+    
+            #first {
+                background-color: #B35DFF;
+            }
+            #second {
+                background-color: #7552F0;
+            }
+            #third {
+                background-color: #3647E0;
+            }
+            #fourth {
+                background-color: #42afda;
+            }
+        }
+    }
+}
