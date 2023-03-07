@@ -15,7 +15,7 @@ class MomentumScroll {
         document.addEventListener('DOMContentLoaded', () => {
             this.scrollContainer = document.getElementById(containerId)
             this.body = document.body
-            this.scrollContainerHeight = this.scrollContainer.getBoundingClientRect().height
+            this.body.style.height = this.scrollContainer.clientHeight + 'px'
 
             window.addEventListener('scroll', () => {
                 this.sx = window.scrollX;
